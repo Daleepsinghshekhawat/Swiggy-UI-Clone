@@ -94,6 +94,31 @@ body{
   outline:0;
   font-size:0.95rem;
 }
+.sub-navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 0.5rem 0;
+}
+
+.nav-categories {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-categories li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.nav-categories li a:hover {
+  color: #fc8019; /* Swiggy orange */
+}
+
 
 /* Right side nav actions */
 .nav-actions{ display:flex; gap:0.5rem; align-items:center; }
